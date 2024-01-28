@@ -31,6 +31,27 @@ console.log ( typeof heros );
 
 //type of opreator function is function null=>is object 
 
+// stack (primitive), heap (non-primitive)
+
+let myyoutubename ="@designwithAmol"
+
+let anothername = "amolchimadge"
+console.log(myyoutubename);
+console.log(anothername)
+
+let userone = {
+    email:"amolchi@gmail.com"
+    
+
+}
+
+let usertwo = userone
+usertwo.email = "hitesh@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
 
 
 
